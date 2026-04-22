@@ -88,11 +88,27 @@
     // console.log(result);
 
 // Ex9: (Switch case)
-    var data = [15,18,19,20];
-    switch(true){
-        case data.includes(15):
-            console.log("Kayna");
+    // var data = [15,18,19,20];
+    // switch(true){
+    //     case data.includes(15):
+    //         console.log("Kayna");
+    //         break;
+    //     default:
+    //         console.log("Makaynch");
+    // 
+// Ex10:
+    var x = prompt("Enter a number: ");
+    switch(x){
+        case 5:
+            console.log("Sa9at");
+            break;
+        case 10:
+            console.log("Passable");
+            break;
+        case 20:
+            console.log("Naj7");
             break;
         default:
-            console.log("Makaynch");
+            console.log("Evv");
+            
     }
